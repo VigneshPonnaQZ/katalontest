@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Sabo</name>
+   <name>record_verify</name>
    <tag></tag>
    <elementGuidId>11379d6a-370e-4a44-9e53-6cdaed3284fa</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td:nth-of-type(2) > a</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content']/div/div[2]/div/table/tbody/tr/td[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(2) > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9657d40d-8f57-4f87-96f1-497e5ec1fd49</webElementGuid>
+      <webElementGuid>943ce5bf-8e20-4f27-a5e4-340ec5667ebd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/companies/993b678e-e7bb-420a-ba04-614b60901d92</value>
-      <webElementGuid>dd0a6ead-bcb5-46fc-be04-b4397aa64dcf</webElementGuid>
+      <webElementGuid>e543c234-77a4-4e43-bfd4-4330a54fa433</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sabo</value>
-      <webElementGuid>c789002d-f7e6-4d17-8f63-c161dfe7cc93</webElementGuid>
+      <webElementGuid>1d8c923e-65d0-475b-97d6-954f9df723fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content&quot;)/div[@class=&quot;ui fluid container&quot;]/div[@class=&quot;ui fluid container main-content&quot;]/div[@class=&quot;table-wrapper&quot;]/table[@class=&quot;ui celled definition sortable striped table custom-grid&quot;]/tbody[1]/tr[@class=&quot;active&quot;]/td[2]/a[1]</value>
-      <webElementGuid>e26eed22-21d1-4938-a59c-144cc3544bb9</webElementGuid>
+      <webElementGuid>04682fc7-a9f7-4228-8876-cf5222e00f24</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,23 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content']/div/div[2]/div/table/tbody/tr/td[2]/a</value>
-      <webElementGuid>db861b65-63ca-497a-a9c2-a34764f1e078</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Sabo')]</value>
-      <webElementGuid>9a8d246c-6b5b-452e-a53d-02ae548f48e8</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, '/companies/993b678e-e7bb-420a-ba04-614b60901d92')]</value>
-      <webElementGuid>f5a99081-65e5-4257-b4a2-9327a17aaf3e</webElementGuid>
+      <webElementGuid>9096fd3b-47d5-4b58-bc4d-a6d844c2ec08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,14 +62,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/a</value>
-      <webElementGuid>ff245ae2-6285-4bb9-882f-67960f5d2c1e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@href = '/companies/993b678e-e7bb-420a-ba04-614b60901d92' and (text() = 'Sabo' or . = 'Sabo')]</value>
-      <webElementGuid>5481eb4c-3d8b-44c1-a9c5-25165f6afad6</webElementGuid>
+      <webElementGuid>3f7db207-121e-4a6a-828f-7dc63a914c37</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

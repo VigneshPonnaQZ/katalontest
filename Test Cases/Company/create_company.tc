@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>create_company</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ddfd97e7-8c6c-4148-b588-8106b21b1972</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5d78b334-b358-4538-8a7b-5498c07a1489</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Mugiwara'</defaultValue>
+      <description></description>
+      <id>5d78b334-b358-4538-8a7b-5498c07a1489</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+</TestCaseEntity>

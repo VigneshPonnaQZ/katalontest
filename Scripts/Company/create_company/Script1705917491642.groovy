@@ -17,21 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('cogmento_login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login/cogmento_login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/span_Companies (1)'))
+WebUI.click(findTestObject('Page_Cogmento CRM/span_Companies'))
 
-WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/button_Create (1)'))
+WebUI.click(findTestObject('Page_Cogmento CRM/button_Create'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Cogmento CRM/input_name'), 'Sabo')
+WebUI.setText(findTestObject('Object Repository/Page_Cogmento CRM/input_name'), name)
 
 WebUI.setText(findTestObject('Object Repository/Page_Cogmento CRM/input_text'), '')
 
-WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/i_save icon'))
+WebUI.click(findTestObject('Page_Cogmento CRM/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/span_Companies (1)'))
+WebUI.click(findTestObject('Page_Cogmento CRM/span_Companies'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Cogmento CRM/a_Sabo'), 'Sabo')
+WebUI.verifyElementText(findTestObject('Page_Cogmento CRM/record_verify'), name)
 
 WebUI.closeBrowser()
 

@@ -15,14 +15,20 @@
       <guid>9826e0f3-9043-420e-8fa7-81b8023da60b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/create_company</testCaseId>
+      <testCaseId>Test Cases/Company/create_company</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5d78b334-b358-4538-8a7b-5498c07a1489</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>18da8cb5-3de4-4bd9-9d2f-45b9b2a66268</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/create_company_without_mandatory_fields</testCaseId>
+      <testCaseId>Test Cases/Company/create_company_without_mandatory_fields</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
