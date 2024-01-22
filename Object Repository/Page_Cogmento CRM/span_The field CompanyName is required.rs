@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_The field CompanyName is required</name>
+   <tag></tag>
+   <elementGuidId>c8d1cdde-6b44-48b4-88ec-eac3de90d0db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.inline-error-msg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content']/div/div[2]/form/div/div/div/label/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4b9c1594-d9e4-471b-9bb2-1697d351cf99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>inline-error-msg</value>
+      <webElementGuid>820df2b6-aa31-4cf5-b83d-e7d6ea3bb152</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The field CompanyName is required.</value>
+      <webElementGuid>066ebfd8-cb8e-4c96-b21c-6055ead935f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ui fluid container&quot;]/div[@class=&quot;ui fluid container main-content&quot;]/form[@class=&quot;ui form segment custom-form-container&quot;]/div[@class=&quot;two fields&quot;]/div[@class=&quot;field&quot;]/div[@class=&quot;ui field&quot;]/label[1]/span[@class=&quot;inline-error-msg&quot;]</value>
+      <webElementGuid>b5701b67-ddb6-4b5e-9ccd-9152b6200c14</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content']/div/div[2]/form/div/div/div/label/span</value>
+      <webElementGuid>240b22f0-389f-4abd-adea-c350bd97b79b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/span</value>
+      <webElementGuid>0229e716-163c-428d-ae2c-675a57b340f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'The field CompanyName is required.' or . = 'The field CompanyName is required.')]</value>
+      <webElementGuid>699efd12-18f1-4a9c-9f00-1c0122a14078</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

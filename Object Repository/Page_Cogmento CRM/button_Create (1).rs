@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Create (1)</name>
+   <tag></tag>
+   <elementGuidId>f62fd330-0818-47c9-b060-765fa7a14710</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a > button.ui.linkedin.button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dashboard-toolbar']/div[2]/div/a/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2d5de693-581c-4ca2-85ea-5ac254bcc2c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui linkedin button</value>
+      <webElementGuid>e6af4963-9f68-4431-823e-57ac4396a6e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create</value>
+      <webElementGuid>cc3c5906-c99a-4e6a-9d38-8a46b5564fab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard-toolbar&quot;)/div[@class=&quot;ui right secondary pointing menu toolbar-container&quot;]/div[@class=&quot;item&quot;]/a[1]/button[@class=&quot;ui linkedin button&quot;]</value>
+      <webElementGuid>1dcb556a-cfd4-4819-8964-240a04f219ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dashboard-toolbar']/div[2]/div/a/button</value>
+      <webElementGuid>246f0773-c154-484f-9e00-6b4c19388408</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/button</value>
+      <webElementGuid>a37d7f4d-e3ce-4101-a17e-e80145e966f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Create' or . = 'Create')]</value>
+      <webElementGuid>e8c7d43f-4938-4316-8308-a04685c0da70</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

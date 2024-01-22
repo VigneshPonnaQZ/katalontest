@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Sabo</name>
+   <tag></tag>
+   <elementGuidId>341209fa-ab3d-4010-8109-386b9d589b2a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dashboard-toolbar']/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6e314412-5a5a-4046-acf4-6741548d6b11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>selectable </value>
+      <webElementGuid>05003051-93f4-408a-a83f-0638680f1833</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Sabo</value>
+      <webElementGuid>d52d5a38-10c1-4b59-ae55-46bbb7df4af9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard-toolbar&quot;)/div[@class=&quot;ui header item mb5 light-black&quot;]/span[@class=&quot;selectable&quot;]</value>
+      <webElementGuid>c1fb0e65-e7be-4e8b-9631-cda48b7564c4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dashboard-toolbar']/div/span</value>
+      <webElementGuid>2a2fd5d2-25bb-4f0d-8d37-23b43cabcf47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/span</value>
+      <webElementGuid>e6617ad9-768c-4167-954a-f6201ec2d71c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Sabo' or . = ' Sabo')]</value>
+      <webElementGuid>c372206f-e332-434b-8fd0-77d463c5f47f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

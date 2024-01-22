@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_save icon</name>
+   <tag></tag>
+   <elementGuidId>831782ff-f398-49a8-b3e0-aad8f67a8cf3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.save.icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dashboard-toolbar']/div[2]/div/button[2]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>550d54ef-75f4-4c26-bda5-208a84608f86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>7bc30b50-876f-4bce-b271-c71db096ed33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>save icon</value>
+      <webElementGuid>b755f3df-bac7-4b7f-8741-bc57c5e4eef4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard-toolbar&quot;)/div[@class=&quot;ui right secondary pointing menu toolbar-container&quot;]/div[@class=&quot;item&quot;]/button[@class=&quot;ui linkedin button&quot;]/i[@class=&quot;save icon&quot;]</value>
+      <webElementGuid>6fae696e-9bba-44d4-9a70-b3413f67fc3b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dashboard-toolbar']/div[2]/div/button[2]/i</value>
+      <webElementGuid>8dfa5c4d-bdc4-4b2c-99f6-76264fd66de4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/button[2]/i</value>
+      <webElementGuid>7684ad24-f0a0-4105-83ad-aedb4ed2a1b9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

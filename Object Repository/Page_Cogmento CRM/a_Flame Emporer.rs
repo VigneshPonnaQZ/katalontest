@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Flame Emporer</name>
+   <tag></tag>
+   <elementGuidId>fea66b1f-0173-487e-b04c-7de8cdae964a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(2) > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content']/div/div[2]/div/table/tbody/tr/td[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>13f06506-c003-4773-a4c5-20d773ea9904</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/companies/58198c25-596b-4d54-9851-faf87afc6a36</value>
+      <webElementGuid>31142e6a-2d23-4fcf-86c1-766a197a9770</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Flame Emporer</value>
+      <webElementGuid>381c30c3-ecfe-4f40-85dc-a8245731b403</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ui fluid container&quot;]/div[@class=&quot;ui fluid container main-content&quot;]/div[@class=&quot;table-wrapper&quot;]/table[@class=&quot;ui celled definition sortable striped table custom-grid&quot;]/tbody[1]/tr[@class=&quot;active&quot;]/td[2]/a[1]</value>
+      <webElementGuid>bb266bb2-0c05-4709-8c48-075992e5e139</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content']/div/div[2]/div/table/tbody/tr/td[2]/a</value>
+      <webElementGuid>d5b999cc-79e4-4f56-bd67-5261eec31917</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Flame Emporer')]</value>
+      <webElementGuid>ee4183f0-c2ff-467c-885f-3ec462249836</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/companies/58198c25-596b-4d54-9851-faf87afc6a36')]</value>
+      <webElementGuid>85de04eb-0487-423e-9d81-73410dd72763</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/a</value>
+      <webElementGuid>1ab55482-0a02-4f90-aa3e-22a3ce070346</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/companies/58198c25-596b-4d54-9851-faf87afc6a36' and (text() = 'Flame Emporer' or . = 'Flame Emporer')]</value>
+      <webElementGuid>f6cf45bd-0d86-4df2-8083-b5fee5daa60c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
