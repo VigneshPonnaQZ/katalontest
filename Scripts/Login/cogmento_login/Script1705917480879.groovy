@@ -21,11 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://ui.cogmento.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Cogmento CRM/input_email'), 'navyanalli9@gmail.com')
+WebUI.setText(findTestObject('Page_Cogmento CRM/input_email'), 'navyanalli9@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Cogmento CRM/input_password'), '0BlOmQhNRDkag8WfLKowCA==')
+WebUI.setEncryptedText(findTestObject('Page_Cogmento CRM/input_password'), '0BlOmQhNRDkag8WfLKowCA==')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Cogmento CRM/input_password'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/body_Loadinghtml1body1'))
+WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/div_Login'))
 
