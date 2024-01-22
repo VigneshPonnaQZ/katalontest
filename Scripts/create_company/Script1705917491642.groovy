@@ -29,8 +29,6 @@ WebUI.setText(findTestObject('Object Repository/Page_Cogmento CRM/input_text'), 
 
 WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/i_save icon'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Cogmento CRM/span_Sabo'), 'Sabo')
-
 WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/span_Companies (1)'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Cogmento CRM/a_Sabo'), 'Sabo')

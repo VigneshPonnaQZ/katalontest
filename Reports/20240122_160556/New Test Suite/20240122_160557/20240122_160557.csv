@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,22-01-2024 16:06:02,22-01-2024 16:06:04,2.322s,FAILED
+,,,,,,,
+Test Cases/create_company,,,,22-01-2024 16:06:03,22-01-2024 16:06:04,0.149s,FAILED
+"callTestCase(findTestCase(""cogmento_login""), [:], STOP_ON_FAILURE)",,,,22-01-2024 16:06:03,22-01-2024 16:06:04,0.120s,FAILED
+,,,,,,,
+Test Cases/create_company_without_mandatory_fields,,,,22-01-2024 16:06:04,22-01-2024 16:06:04,0.128s,FAILED
+"callTestCase(findTestCase(""cogmento_login""), [:], STOP_ON_FAILURE)",,,,22-01-2024 16:06:04,22-01-2024 16:06:04,0.105s,FAILED

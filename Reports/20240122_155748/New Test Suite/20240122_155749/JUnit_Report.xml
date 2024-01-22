@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="34.759" tests="2" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="2" failures="0" errors="0" time="34.759" skipped="0" timestamp="22-01-2024T15:57:54" hostname="Vignesh - QZ-LT-R-CP-172" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Vignesh\\git\\katalontest\\Reports\\20240122_155748\\New Test Suite\\20240122_155749"/>
+         <property name="logFiles" value="C:\\Users\\Vignesh\\git\\katalontest\\Reports\\20240122_155748\\New Test Suite\\20240122_155749\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Vignesh - QZ-LT-R-CP-172"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.31.86"/>
+         <property name="sessionId" value="7297b3534af8a35aa57a509ec6666ec3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/create_company" time="19.783" classname="Test Cases/create_company" status="PASSED">
+         <system-out><![CDATA[22-01-2024T15:57:54 - [TEST_CASE][PASSED] - Test Cases/create_company: Test Cases/create_company
+
+22-01-2024T15:57:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("cogmento_login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/cogmento_login' successfully
+
+22-01-2024T15:57:54 - [TEST_CASE][PASSED] - Test Cases/cogmento_login: Test Cases/cogmento_login
+
+22-01-2024T15:57:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-01-2024T15:57:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-01-2024T15:57:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-01-2024T15:57:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-01-2024T15:57:56 - [TEST_STEP][PASSED] - navigateToUrl("https://ui.cogmento.com/"): Navigate to 'https://ui.cogmento.com/' successfully
+
+22-01-2024T15:58:00 - [MESSAGE][PASSED] - Navigate to 'https://ui.cogmento.com/' successfully
+
+22-01-2024T15:58:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Cogmento CRM/input_email"), "navyanalli9@gmail.com"): Text 'navyanalli9@gmail.com' is set on object 'Object Repository/Page_Cogmento CRM/input_email'
+
+22-01-2024T15:58:01 - [MESSAGE][PASSED] - Text 'navyanalli9@gmail.com' is set on object 'Object Repository/Page_Cogmento CRM/input_email'
+
+22-01-2024T15:58:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Cogmento CRM/input_password"), "0BlOmQhNRDkag8WfLKowCA=="): Text ****** has been set on object 'Object Repository/Page_Cogmento CRM/input_password'
+
+22-01-2024T15:58:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Cogmento CRM/input_password'
+
+22-01-2024T15:58:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Cogmento CRM/input_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Cogmento CRM/input_password'
+
+22-01-2024T15:58:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Cogmento CRM/input_password'
+
+22-01-2024T15:58:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cogmento CRM/body_Loadinghtml1body1")): Object: 'Object Repository/Page_Cogmento CRM/body_Loadinghtml1body1' is clicked on
+
+22-01-2024T15:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cogmento CRM/body_Loadinghtml1body1' is clicked on
+
+22-01-2024T15:58:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/cogmento_login' successfully
+
+22-01-2024T15:58:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cogmento CRM/span_Companies (1)")): Object: 'Object Repository/Page_Cogmento CRM/span_Companies (1)' is clicked on
+
+22-01-2024T15:58:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cogmento CRM/span_Companies (1)' is clicked on
+
+22-01-2024T15:58:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cogmento CRM/button_Create (1)")): Object: 'Object Repository/Page_Cogmento CRM/button_Create (1)' is clicked on
+
+22-01-2024T15:58:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cogmento CRM/button_Create (1)' is clicked on
+
+22-01-2024T15:58:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Cogmento CRM/input_name"), "Sabo"): Text 'Sabo' is set on object 'Object Repository/Page_Cogmento CRM/input_name'
+
+22-01-2024T15:58:09 - [MESSAGE][PASSED] - Text 'Sabo' is set on object 'Object Repository/Page_Cogmento CRM/input_name'
+
+22-01-2024T15:58:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Cogmento CRM/input_text"), ""): Text '' is set on object 'Object Repository/Page_Cogmento CRM/input_text'
+
+22-01-2024T15:58:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Cogmento CRM/input_text'
+
+22-01-2024T15:58:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cogmento CRM/i_save icon")): Object: 'Object Repository/Page_Cogmento CRM/i_save icon' is clicked on
+
+22-01-2024T15:58:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cogmento CRM/i_save icon' is clicked on
+
+22-01-2024T15:58:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Cogmento CRM/span_Sabo"), "Sabo"): Actual text and expected text of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' are matched.
+
+22-01-2024T15:58:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' are matched.
+
+22-01-2024T15:58:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cogmento CRM/span_Companies (1)")): Object: 'Object Repository/Page_Cogmento CRM/span_Companies (1)' is clicked on
+
+22-01-2024T15:58:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cogmento CRM/span_Companies (1)' is clicked on
+
+22-01-2024T15:58:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Cogmento CRM/a_Sabo"), "Sabo"): Actual text and expected text of test object 'Object Repository/Page_Cogmento CRM/a_Sabo' are matched.
+
+22-01-2024T15:58:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Cogmento CRM/a_Sabo' are matched.
+
+22-01-2024T15:58:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-01-2024T15:58:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/create_company_without_mandatory_fields" time="14.761" classname="Test Cases/create_company_without_mandatory_fields" status="PASSED">
+         <system-out><![CDATA[22-01-2024T15:58:14 - [TEST_CASE][PASSED] - Test Cases/create_company_without_mandatory_fields: Test Cases/create_company_without_mandatory_fields
+
+22-01-2024T15:58:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("cogmento_login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/cogmento_login' successfully
+
+22-01-2024T15:58:14 - [TEST_CASE][PASSED] - Test Cases/cogmento_login: Test Cases/cogmento_login
+
+22-01-2024T15:58:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-01-2024T15:58:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-01-2024T15:58:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-01-2024T15:58:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-01-2024T15:58:15 - [TEST_STEP][PASSED] - navigateToUrl("https://ui.cogmento.com/"): Navigate to 'https://ui.cogmento.com/' successfully
+
+22-01-2024T15:58:19 - [MESSAGE][PASSED] - Navigate to 'https://ui.cogmento.com/' successfully
+
+22-01-2024T15:58:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Cogmento CRM/input_email"), "navyanalli9@gmail.com"): Text 'navyanalli9@gmail.com' is set on object 'Object Repository/Page_Cogmento CRM/input_email'
+
+22-01-2024T15:58:20 - [MESSAGE][PASSED] - Text 'navyanalli9@gmail.com' is set on object 'Object Repository/Page_Cogmento CRM/input_email'
+
+22-01-2024T15:58:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Cogmento CRM/input_password"), "0BlOmQhNRDkag8WfLKowCA=="): Text ****** has been set on object 'Object Repository/Page_Cogmento CRM/input_password'
+
+22-01-2024T15:58:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Cogmento CRM/input_password'
+
+22-01-2024T15:58:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Cogmento CRM/input_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Cogmento CRM/input_password'
+
+22-01-2024T15:58:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Cogmento CRM/input_password'
+
+22-01-2024T15:58:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cogmento CRM/body_Loadinghtml1body1")): Object: 'Object Repository/Page_Cogmento CRM/body_Loadinghtml1body1' is clicked on
+
+22-01-2024T15:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cogmento CRM/body_Loadinghtml1body1' is clicked on
+
+22-01-2024T15:58:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/cogmento_login' successfully
+
+22-01-2024T15:58:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cogmento CRM/span_Companies (2)")): Object: 'Object Repository/Page_Cogmento CRM/span_Companies (2)' is clicked on
+
+22-01-2024T15:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cogmento CRM/span_Companies (2)' is clicked on
+
+22-01-2024T15:58:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cogmento CRM/button_Create (2)")): Object: 'Object Repository/Page_Cogmento CRM/button_Create (2)' is clicked on
+
+22-01-2024T15:58:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cogmento CRM/button_Create (2)' is clicked on
+
+22-01-2024T15:58:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cogmento CRM/button_Save (1)")): Object: 'Object Repository/Page_Cogmento CRM/button_Save (1)' is clicked on
+
+22-01-2024T15:58:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cogmento CRM/button_Save (1)' is clicked on
+
+22-01-2024T15:58:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Cogmento CRM/span_The field CompanyName is required"), 0): Object 'Object Repository/Page_Cogmento CRM/span_The field CompanyName is required' is present
+
+22-01-2024T15:58:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-01-2024T15:58:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Cogmento CRM/span_The field CompanyName is required' is present
+
+22-01-2024T15:58:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-01-2024T15:58:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-01-2024T15:57:54 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/create_company_without_mandatory_fields]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

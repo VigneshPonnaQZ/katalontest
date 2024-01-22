@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 120.0.0.0,,,22-01-2024 16:04:59,22-01-2024 16:05:34,34.605s,PASSED
+,,,,,,,
+Test Cases/create_company,Chrome 120.0.0.0,,,22-01-2024 16:04:59,22-01-2024 16:05:20,20.726s,PASSED
+"callTestCase(findTestCase(""cogmento_login""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,22-01-2024 16:05:00,22-01-2024 16:05:11,11.770s,PASSED
+"click(findTestObject(""Object Repository/Page_Cogmento CRM/span_Companies (1)""))",Chrome 120.0.0.0,,,22-01-2024 16:05:11,22-01-2024 16:05:12,0.485s,PASSED
+"click(findTestObject(""Object Repository/Page_Cogmento CRM/button_Create (1)""))",Chrome 120.0.0.0,,,22-01-2024 16:05:12,22-01-2024 16:05:13,1.132s,PASSED
+"setText(findTestObject(""Object Repository/Page_Cogmento CRM/input_name""), ""Sabo"")",Chrome 120.0.0.0,,,22-01-2024 16:05:13,22-01-2024 16:05:15,1.524s,PASSED
+"setText(findTestObject(""Object Repository/Page_Cogmento CRM/input_text""), """")",Chrome 120.0.0.0,,,22-01-2024 16:05:15,22-01-2024 16:05:15,0.894s,PASSED
+"click(findTestObject(""Object Repository/Page_Cogmento CRM/i_save icon""))",Chrome 120.0.0.0,,,22-01-2024 16:05:15,22-01-2024 16:05:17,1.211s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Cogmento CRM/span_Sabo""), ""Sabo"")",Chrome 120.0.0.0,,,22-01-2024 16:05:17,22-01-2024 16:05:18,1.786s,PASSED
+"click(findTestObject(""Object Repository/Page_Cogmento CRM/span_Companies (1)""))",Chrome 120.0.0.0,,,22-01-2024 16:05:18,22-01-2024 16:05:19,0.488s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Cogmento CRM/a_Sabo""), ""Sabo"")",Chrome 120.0.0.0,,,22-01-2024 16:05:19,22-01-2024 16:05:20,0.813s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,22-01-2024 16:05:20,22-01-2024 16:05:20,0.289s,PASSED
+,,,,,,,
+Test Cases/create_company_without_mandatory_fields,Chrome 120.0.0.0,,,22-01-2024 16:05:20,22-01-2024 16:05:34,13.631s,PASSED
+"callTestCase(findTestCase(""cogmento_login""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,22-01-2024 16:05:20,22-01-2024 16:05:30,10.167s,PASSED
+"click(findTestObject(""Object Repository/Page_Cogmento CRM/span_Companies (2)""))",Chrome 120.0.0.0,,,22-01-2024 16:05:30,22-01-2024 16:05:31,0.422s,PASSED
+"click(findTestObject(""Object Repository/Page_Cogmento CRM/button_Create (2)""))",Chrome 120.0.0.0,,,22-01-2024 16:05:31,22-01-2024 16:05:32,1.186s,PASSED
+"click(findTestObject(""Object Repository/Page_Cogmento CRM/button_Save (1)""))",Chrome 120.0.0.0,,,22-01-2024 16:05:32,22-01-2024 16:05:33,1.039s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Cogmento CRM/span_The field CompanyName is required""), 0)",Chrome 120.0.0.0,,,22-01-2024 16:05:33,22-01-2024 16:05:34,0.434s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,22-01-2024 16:05:34,22-01-2024 16:05:34,0.201s,PASSED

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="42.52" tests="2" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="2" failures="1" errors="0" time="42.52" skipped="0" timestamp="22-01-2024T16:06:15" hostname="Vignesh - QZ-LT-R-CP-172" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Vignesh\\git\\katalontest\\Reports\\20240122_160611\\New Test Suite\\20240122_160611"/>
+         <property name="logFiles" value="C:\\Users\\Vignesh\\git\\katalontest\\Reports\\20240122_160611\\New Test Suite\\20240122_160611\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Vignesh\\git\\katalontest\\Reports\\20240122_160611\\New Test Suite\\20240122_160611\\1705919785338.png, C:\\Users\\Vignesh\\git\\katalontest\\Reports\\20240122_160611\\New Test Suite\\20240122_160611\\1705919785429.png, C:\\Users\\Vignesh\\git\\katalontest\\Reports\\20240122_160611\\New Test Suite\\20240122_160611\\1705919793489.png, C:\\Users\\Vignesh\\git\\katalontest\\Reports\\20240122_160611\\New Test Suite\\20240122_160611\\1705919793574.png, C:\\Users\\Vignesh\\git\\katalontest\\Reports\\20240122_160611\\New Test Suite\\20240122_160611\\1705919801811.png, C:\\Users\\Vignesh\\git\\katalontest\\Reports\\20240122_160611\\New Test Suite\\20240122_160611\\1705919801910.png, C:\\Users\\Vignesh\\git\\katalontest\\Reports\\20240122_160611\\New Test Suite\\20240122_160611\\1705919809966.png, C:\\Users\\Vignesh\\git\\katalontest\\Reports\\20240122_160611\\New Test Suite\\20240122_160611\\1705919810076.png"/>
+         <property name="hostName" value="Vignesh - QZ-LT-R-CP-172"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.6099.201"/>
+         <property name="hostAddress" value="192.168.31.86"/>
+         <property name="sessionId" value="e6a2a4a158ef01b383f258d4e041964e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/create_company" time="8.172" classname="Test Cases/create_company" status="FAILED">
+         <failure type="FAILED" message="Test Cases/create_company FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' FAILED.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)&#xa;	at create_company.run(create_company:32)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1705919771255.run(TempTestSuite1705919771255.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Create new Company' and expected text 'Sabo' of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' are NOT matched.&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[22-01-2024T16:06:42 - [TEST_CASE][FAILED] - Test Cases/create_company: Test Cases/create_company FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at create_company.run(create_company:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705919771255.run(TempTestSuite1705919771255.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Create new Company' and expected text 'Sabo' of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+22-01-2024T16:06:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("cogmento_login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/cogmento_login' successfully
+
+22-01-2024T16:06:42 - [TEST_CASE][PASSED] - Test Cases/cogmento_login: Test Cases/cogmento_login
+
+22-01-2024T16:06:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-01-2024T16:06:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+22-01-2024T16:06:42 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+22-01-2024T16:06:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-01-2024T16:06:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-01-2024T16:06:42 - [TEST_STEP][PASSED] - navigateToUrl("https://ui.cogmento.com/"): Navigate to 'https://ui.cogmento.com/' successfully
+
+22-01-2024T16:06:46 - [MESSAGE][PASSED] - Navigate to 'https://ui.cogmento.com/' successfully
+
+22-01-2024T16:06:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Cogmento CRM/input_email"), "navyanalli9@gmail.com"): Text 'navyanalli9@gmail.com' is set on object 'Object Repository/Page_Cogmento CRM/input_email'
+
+22-01-2024T16:06:46 - [MESSAGE][PASSED] - Text 'navyanalli9@gmail.com' is set on object 'Object Repository/Page_Cogmento CRM/input_email'
+
+22-01-2024T16:06:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Cogmento CRM/input_password"), "0BlOmQhNRDkag8WfLKowCA=="): Text ****** has been set on object 'Object Repository/Page_Cogmento CRM/input_password'
+
+22-01-2024T16:06:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Cogmento CRM/input_password'
+
+22-01-2024T16:06:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Cogmento CRM/input_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Cogmento CRM/input_password'
+
+22-01-2024T16:06:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Cogmento CRM/input_password'
+
+22-01-2024T16:06:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cogmento CRM/body_Loadinghtml1body1")): Object: 'Object Repository/Page_Cogmento CRM/body_Loadinghtml1body1' is clicked on
+
+22-01-2024T16:06:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cogmento CRM/body_Loadinghtml1body1' is clicked on
+
+22-01-2024T16:06:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/cogmento_login' successfully
+
+22-01-2024T16:06:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cogmento CRM/span_Companies (1)")): Object: 'Object Repository/Page_Cogmento CRM/span_Companies (1)' is clicked on
+
+22-01-2024T16:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cogmento CRM/span_Companies (1)' is clicked on
+
+22-01-2024T16:06:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cogmento CRM/button_Create (1)")): Object: 'Object Repository/Page_Cogmento CRM/button_Create (1)' is clicked on
+
+22-01-2024T16:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cogmento CRM/button_Create (1)' is clicked on
+
+22-01-2024T16:06:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Cogmento CRM/input_name"), "Sabo"): Text 'Sabo' is set on object 'Object Repository/Page_Cogmento CRM/input_name'
+
+22-01-2024T16:06:49 - [MESSAGE][PASSED] - Text 'Sabo' is set on object 'Object Repository/Page_Cogmento CRM/input_name'
+
+22-01-2024T16:06:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Cogmento CRM/input_text"), ""): Text '' is set on object 'Object Repository/Page_Cogmento CRM/input_text'
+
+22-01-2024T16:06:49 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Cogmento CRM/input_text'
+
+22-01-2024T16:06:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cogmento CRM/i_save icon")): Object: 'Object Repository/Page_Cogmento CRM/i_save icon' is clicked on
+
+22-01-2024T16:06:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cogmento CRM/i_save icon' is clicked on
+
+22-01-2024T16:06:49 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/Page_Cogmento CRM/span_Sabo"), "Sabo"): Verify element text of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at create_company.run(create_company:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705919771255.run(TempTestSuite1705919771255.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Create new Company' and expected text 'Sabo' of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+
+22-01-2024T16:06:50 - [MESSAGE][FAILED] - Actual text 'Create new Company' and expected text 'Sabo' of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Create new Company' and expected text 'Sabo' of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at create_company.run(create_company:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705919771255.run(TempTestSuite1705919771255.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\Vignesh\\git\\katalontest\\Reports\\20240122_160611\\New Test Suite\\20240122_160611\\1705919809966.png]]
+
+22-01-2024T16:06:50 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at create_company.run(create_company:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705919771255.run(TempTestSuite1705919771255.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Create new Company' and expected text 'Sabo' of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\Vignesh\\git\\katalontest\\Reports\\20240122_160611\\New Test Suite\\20240122_160611\\1705919810076.png]]]]></system-out>
+         <system-err><![CDATA[22-01-2024T16:06:42 - [TEST_CASE][FAILED] - Test Cases/create_company: Test Cases/create_company FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at create_company.run(create_company:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705919771255.run(TempTestSuite1705919771255.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Create new Company' and expected text 'Sabo' of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/create_company_without_mandatory_fields" time="7.815" classname="Test Cases/create_company_without_mandatory_fields" status="PASSED">
+         <system-out><![CDATA[22-01-2024T16:06:50 - [TEST_CASE][PASSED] - Test Cases/create_company_without_mandatory_fields: Test Cases/create_company_without_mandatory_fields
+
+22-01-2024T16:06:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("cogmento_login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/cogmento_login' successfully
+
+22-01-2024T16:06:50 - [TEST_CASE][PASSED] - Test Cases/cogmento_login: Test Cases/cogmento_login
+
+22-01-2024T16:06:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-01-2024T16:06:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+22-01-2024T16:06:50 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+22-01-2024T16:06:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-01-2024T16:06:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-01-2024T16:06:51 - [TEST_STEP][PASSED] - navigateToUrl("https://ui.cogmento.com/"): Navigate to 'https://ui.cogmento.com/' successfully
+
+22-01-2024T16:06:54 - [MESSAGE][PASSED] - Navigate to 'https://ui.cogmento.com/' successfully
+
+22-01-2024T16:06:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Cogmento CRM/input_email"), "navyanalli9@gmail.com"): Text 'navyanalli9@gmail.com' is set on object 'Object Repository/Page_Cogmento CRM/input_email'
+
+22-01-2024T16:06:54 - [MESSAGE][PASSED] - Text 'navyanalli9@gmail.com' is set on object 'Object Repository/Page_Cogmento CRM/input_email'
+
+22-01-2024T16:06:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Cogmento CRM/input_password"), "0BlOmQhNRDkag8WfLKowCA=="): Text ****** has been set on object 'Object Repository/Page_Cogmento CRM/input_password'
+
+22-01-2024T16:06:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Cogmento CRM/input_password'
+
+22-01-2024T16:06:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Cogmento CRM/input_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Cogmento CRM/input_password'
+
+22-01-2024T16:06:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Cogmento CRM/input_password'
+
+22-01-2024T16:06:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cogmento CRM/body_Loadinghtml1body1")): Object: 'Object Repository/Page_Cogmento CRM/body_Loadinghtml1body1' is clicked on
+
+22-01-2024T16:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cogmento CRM/body_Loadinghtml1body1' is clicked on
+
+22-01-2024T16:06:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/cogmento_login' successfully
+
+22-01-2024T16:06:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cogmento CRM/span_Companies (2)")): Object: 'Object Repository/Page_Cogmento CRM/span_Companies (2)' is clicked on
+
+22-01-2024T16:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cogmento CRM/span_Companies (2)' is clicked on
+
+22-01-2024T16:06:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cogmento CRM/button_Create (2)")): Object: 'Object Repository/Page_Cogmento CRM/button_Create (2)' is clicked on
+
+22-01-2024T16:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cogmento CRM/button_Create (2)' is clicked on
+
+22-01-2024T16:06:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cogmento CRM/button_Save (1)")): Object: 'Object Repository/Page_Cogmento CRM/button_Save (1)' is clicked on
+
+22-01-2024T16:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cogmento CRM/button_Save (1)' is clicked on
+
+22-01-2024T16:06:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Cogmento CRM/span_The field CompanyName is required"), 0): Object 'Object Repository/Page_Cogmento CRM/span_The field CompanyName is required' is present
+
+22-01-2024T16:06:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-01-2024T16:06:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Cogmento CRM/span_The field CompanyName is required' is present
+
+22-01-2024T16:06:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-01-2024T16:06:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-01-2024T16:06:15 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/create_company FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at create_company.run(create_company:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705919771255.run(TempTestSuite1705919771255.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Create new Company' and expected text 'Sabo' of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[22-01-2024T16:06:15 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/create_company FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4835)
+	at create_company.run(create_company:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1705919771255.run(TempTestSuite1705919771255.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'Create new Company' and expected text 'Sabo' of test object 'Object Repository/Page_Cogmento CRM/span_Sabo' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>
