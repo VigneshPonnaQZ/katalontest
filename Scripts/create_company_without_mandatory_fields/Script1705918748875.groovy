@@ -17,15 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('cogmento_login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://ui.cogmento.com/')
+WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/span_Companies (2)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Cogmento CRM/input_email'), 'navyanalli9@gmail.com')
+WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/button_Create (2)'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Cogmento CRM/input_password'), '0BlOmQhNRDkag8WfLKowCA==')
+WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/button_Save (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/div_Login'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Cogmento CRM/span_The field CompanyName is required'), 
+    0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Cogmento CRM/div_header item'), 0)
+WebUI.closeBrowser()
 

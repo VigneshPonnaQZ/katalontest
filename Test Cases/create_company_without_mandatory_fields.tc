@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>cogmento_login</name>
+   <name>create_company_without_mandatory_fields</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>97deb9ec-6aa3-415f-82d2-b01d2a1a79df</testCaseGuid>
+   <testCaseGuid>76c1293b-6a80-4530-947b-9a7ca90ca842</testCaseGuid>
 </TestCaseEntity>

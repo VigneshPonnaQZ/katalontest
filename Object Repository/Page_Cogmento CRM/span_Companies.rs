@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Companies</name>
    <tag></tag>
-   <elementGuidId>49239e0a-50e1-4799-aa15-895cd6a9f909</elementGuidId>
+   <elementGuidId>64fab1f1-0726-4e22-9c86-123425d00d93</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>b941d68f-c5ad-4532-989a-8cc7ee052fe5</webElementGuid>
+      <webElementGuid>d015762f-5ed6-43b3-87b5-a2f3f392b36c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>item-text</value>
-      <webElementGuid>b7a6e7bb-4273-429b-bdbd-5a4c47be5561</webElementGuid>
+      <webElementGuid>b85543c2-6e36-416d-98dd-aa4d96bb6555</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Companies</value>
-      <webElementGuid>4b8799d2-f5d2-4550-8aa4-eaf6e3f883c1</webElementGuid>
+      <webElementGuid>8cf04300-b587-4616-a96f-db1431da1ec1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-nav&quot;)/div[@class=&quot;menu-item-wrapper&quot;]/a[@class=&quot;item&quot;]/span[@class=&quot;item-text&quot;]</value>
-      <webElementGuid>a38c3b5f-f6f9-4dde-b4ee-bc0703de0baa</webElementGuid>
+      <webElementGuid>25ba6dab-9099-40e7-9d39-d8fb95f06690</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-nav']/div[4]/a/span</value>
-      <webElementGuid>3a0fe1fd-7c7b-4a34-9206-8523ba20239b</webElementGuid>
+      <webElementGuid>18655e26-85ae-4226-bd16-7bba05633dfa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/a/span</value>
-      <webElementGuid>71c8b056-d7cf-46de-aa4b-0914d436ad0f</webElementGuid>
+      <webElementGuid>80635a4e-9777-437d-b2cb-e6f03b1b58a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Companies' or . = 'Companies')]</value>
-      <webElementGuid>0e0cf9ee-68a8-4235-878c-2e5c876874e2</webElementGuid>
+      <webElementGuid>4f8df4cf-9626-478c-b887-eb7288e95977</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

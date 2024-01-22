@@ -19,21 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('cogmento_login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/span_Companies'))
+WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/span_Companies (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/button_Create'))
+WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/button_Create (1)'))
 
-WebUI.setText(findTestObject('Page_Cogmento CRM/input_name'), 'YO YO')
+WebUI.setText(findTestObject('Object Repository/Page_Cogmento CRM/input_name'), 'Sabo')
 
-WebUI.setText(findTestObject('Page_Cogmento CRM/input_url'), 'honeysingh.com')
+WebUI.setText(findTestObject('Object Repository/Page_Cogmento CRM/input_text'), '')
 
-WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/i_save icon'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Cogmento CRM/span_YO YO'), 'YO YO')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Cogmento CRM/span_Sabo'), 'Sabo')
 
-WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/span_Companies'))
+WebUI.click(findTestObject('Object Repository/Page_Cogmento CRM/span_Companies (1)'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Cogmento CRM/a_YO YO'), 'YO YO')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Cogmento CRM/a_Sabo'), 'Sabo')
 
 WebUI.closeBrowser()
 

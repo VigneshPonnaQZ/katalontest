@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Save</name>
    <tag></tag>
-   <elementGuidId>6503de0a-5c81-4efc-b620-57154a0cc5a9</elementGuidId>
+   <elementGuidId>e6bc2b48-eb2a-45e2-be89-c0de786d13d9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>93d15971-46be-42a4-98e8-8894844695c0</webElementGuid>
+      <webElementGuid>782d6487-8cc7-452d-9fc5-4f8bdb1ae5e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ui linkedin button</value>
-      <webElementGuid>c9e0a497-6b05-4e30-af40-0cb4a2758bf9</webElementGuid>
+      <webElementGuid>1a0455df-7e08-48a5-9acc-b25b27399277</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>a49bf139-26c6-4cd7-8d37-4b6cff234277</webElementGuid>
+      <webElementGuid>1ed2daa5-ab1b-4e63-bc1c-1527c7aa02bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dashboard-toolbar&quot;)/div[@class=&quot;ui right secondary pointing menu toolbar-container&quot;]/div[@class=&quot;item&quot;]/button[@class=&quot;ui linkedin button&quot;]</value>
-      <webElementGuid>88be97c7-508d-4243-8b67-cd27381ed38b</webElementGuid>
+      <webElementGuid>fb68b87e-a008-4e55-9aa0-b4491100b5fe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dashboard-toolbar']/div[2]/div/button[2]</value>
-      <webElementGuid>8aef6967-1c7c-4d41-9a3e-895210bdc748</webElementGuid>
+      <webElementGuid>468a9dc4-1bec-4528-bf4c-f9d489653046</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/div/button[2]</value>
-      <webElementGuid>f3ce9c8c-fcc7-4c28-a44a-e8decaf7260b</webElementGuid>
+      <webElementGuid>758d48c3-f669-4f6c-a5b6-2ee44ba496f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Save' or . = 'Save')]</value>
-      <webElementGuid>ddd6a48b-b44d-4caa-aec3-858b77a14ce4</webElementGuid>
+      <webElementGuid>791d9d2e-fb08-4472-bae5-05ca1878dfc1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
