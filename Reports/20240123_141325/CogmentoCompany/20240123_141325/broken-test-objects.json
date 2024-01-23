@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Cogmento CRM/record_verify",
+      "brokenLocator": "tbody tr:nth-child(1) td:nth-child(2) a:nth-child(1)",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240123_141325/CogmentoCompany/20240123_141325/Object Repository/Page_Cogmento CRM/record_verify_Absolute.png"
+    }
+  ]
+}

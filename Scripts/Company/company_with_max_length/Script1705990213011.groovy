@@ -16,12 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.apache.commons.lang3.RandomStringUtils as RandomStringUtils
 
 WebUI.callTestCase(findTestCase('Login/cogmento_login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_Cogmento CRM/span_Companies'))
 
 WebUI.click(findTestObject('Page_Cogmento CRM/button_Create'))
+
+name = RandomStringUtils.randomAlphabetic(250)
 
 WebUI.setText(findTestObject('Object Repository/Page_Cogmento CRM/input_name'), name)
 

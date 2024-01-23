@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>company_with_max_length</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8cacaeea-654a-428b-b3bb-b233daf83fbf</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>43280e96-8418-48f1-88c6-e068e2bef17b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>43280e96-8418-48f1-88c6-e068e2bef17b</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+</TestCaseEntity>

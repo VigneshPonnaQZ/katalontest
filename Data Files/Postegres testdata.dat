@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Postegres testdata</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>8743aded-ff43-409c-ae65-abc90218f7da</dataFileGUID>
+   <dataSourceUrl>jdbc:postgresql://localhost:5432/healenium?currentSchema=healenium</dataSourceUrl>
+   <driver>DBData</driver>
+   <driverClassName></driverClassName>
+   <isInternalPath>false</isInternalPath>
+   <password>WURrMm5tTnM0czlhQ1A2Sw==</password>
+   <query>SELECT * FROM healenium.selector</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>healenium_user</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

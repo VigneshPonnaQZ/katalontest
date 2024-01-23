@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>CogmentoCompany</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>91080682-623f-4ca5-b988-731216c4a8d1</testSuiteGuid>
+   <testCaseLink>
+      <guid>7908c83a-7273-4fa4-8d6a-969602e56b1b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Company/company_exceeding_length</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4c5f1a0b-3eeb-464e-8216-9e56df94b9e8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>48b20f02-68af-48b1-8238-dc84e64a153a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Company/company_with_max_length</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>43280e96-8418-48f1-88c6-e068e2bef17b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>67fd25a1-2050-4ce4-aa93-a56b4beace5a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Company/create_company</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5d78b334-b358-4538-8a7b-5498c07a1489</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>669267de-5ec5-409c-8bed-df8ee1b84f7f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Company/create_company_without_mandatory_fields</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

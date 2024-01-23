@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Validation error Name is longer than 250 _51c07f</name>
+   <tag></tag>
+   <elementGuidId>ea648f5a-f847-498e-b82e-c2f08499cf74</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ui']/div[2]/div/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>53792e70-e5a0-4c95-afc9-4a354dcfa5e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Validation error: Name is longer than 250 characters</value>
+      <webElementGuid>34a33097-7689-4692-ad32-300179942415</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ui&quot;)/div[@class=&quot;ui-alerts top-right&quot;]/div[@class=&quot;pulse&quot;]/div[@class=&quot;ui error floating icon message&quot;]/div[@class=&quot;content&quot;]/p[1]</value>
+      <webElementGuid>0b9dd712-c1c0-4af1-9316-67511287d0e0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ui']/div[2]/div/div/div/p</value>
+      <webElementGuid>e74b9a5a-3acf-43a5-b265-30fbb6dae835</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>f9a47a9d-7c1f-4deb-ac37-a3b0cf9f4450</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Validation error: Name is longer than 250 characters' or . = 'Validation error: Name is longer than 250 characters')]</value>
+      <webElementGuid>58b9402b-2c47-4548-bd12-8efebf5ed7eb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
