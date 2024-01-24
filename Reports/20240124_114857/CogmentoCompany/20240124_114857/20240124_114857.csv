@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CogmentoCompany,Chrome 120.0.0.0,,,24-01-2024 11:49:15,24-01-2024 11:50:27,1m - 11.828s,PASSED
+,,,,,,,
+Test Cases/Company/company_exceeding_length,Chrome 120.0.0.0,,,24-01-2024 11:49:15,24-01-2024 11:49:37,22.122s,PASSED
+"callTestCase(findTestCase(""Login/cogmento_login""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,24-01-2024 11:49:15,24-01-2024 11:49:24,8.378s,PASSED
+"click(findTestObject(""Page_Cogmento CRM/span_Companies""))",Chrome 120.0.0.0,,,24-01-2024 11:49:24,24-01-2024 11:49:28,3.967s,PASSED
+"click(findTestObject(""Page_Cogmento CRM/button_Create""))",Chrome 120.0.0.0,,,24-01-2024 11:49:28,24-01-2024 11:49:29,1.072s,PASSED
+name = RandomStringUtils.randomAlphabetic(251),Chrome 120.0.0.0,,,24-01-2024 11:49:29,24-01-2024 11:49:29,0.012s,PASSED
+"setText(findTestObject(""Page_Cogmento CRM/input_name""), name)",Chrome 120.0.0.0,,,24-01-2024 11:49:29,24-01-2024 11:49:35,6.149s,PASSED
+"click(findTestObject(""Page_Cogmento CRM/button_Save""))",Chrome 120.0.0.0,,,24-01-2024 11:49:35,24-01-2024 11:49:35,0.391s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Cogmento CRM/p_Validation error Name is longer than 250 _51c07f""), ""Validation error: Name is longer than 250 characters"")",Chrome 120.0.0.0,,,24-01-2024 11:49:35,24-01-2024 11:49:37,1.446s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,24-01-2024 11:49:37,24-01-2024 11:49:37,0.375s,PASSED
+,,,,,,,
+Test Cases/Company/company_with_max_length,Chrome 120.0.0.0,,,24-01-2024 11:49:37,24-01-2024 11:49:57,20.008s,PASSED
+"callTestCase(findTestCase(""Login/cogmento_login""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,24-01-2024 11:49:37,24-01-2024 11:49:44,6.505s,PASSED
+"click(findTestObject(""Page_Cogmento CRM/span_Companies""))",Chrome 120.0.0.0,,,24-01-2024 11:49:44,24-01-2024 11:49:48,3.865s,PASSED
+"click(findTestObject(""Page_Cogmento CRM/button_Create""))",Chrome 120.0.0.0,,,24-01-2024 11:49:48,24-01-2024 11:49:49,1.090s,PASSED
+name = RandomStringUtils.randomAlphabetic(250),Chrome 120.0.0.0,,,24-01-2024 11:49:49,24-01-2024 11:49:49,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_Cogmento CRM/input_name""), name)",Chrome 120.0.0.0,,,24-01-2024 11:49:49,24-01-2024 11:49:55,5.825s,PASSED
+"click(findTestObject(""Page_Cogmento CRM/button_Save""))",Chrome 120.0.0.0,,,24-01-2024 11:49:55,24-01-2024 11:49:55,0.394s,PASSED
+"click(findTestObject(""Page_Cogmento CRM/span_Companies""))",Chrome 120.0.0.0,,,24-01-2024 11:49:55,24-01-2024 11:49:56,1.093s,PASSED
+"verifyElementText(findTestObject(""Page_Cogmento CRM/record_verify""), name)",Chrome 120.0.0.0,,,24-01-2024 11:49:56,24-01-2024 11:49:57,0.771s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,24-01-2024 11:49:57,24-01-2024 11:49:57,0.363s,PASSED
+,,,,,,,
+Test Cases/Company/create_company,Chrome 120.0.0.0,,,24-01-2024 11:49:57,24-01-2024 11:50:14,16.374s,PASSED
+"callTestCase(findTestCase(""Login/cogmento_login""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,24-01-2024 11:49:57,24-01-2024 11:50:04,6.357s,PASSED
+"click(findTestObject(""Page_Cogmento CRM/span_Companies""))",Chrome 120.0.0.0,,,24-01-2024 11:50:04,24-01-2024 11:50:08,4.131s,PASSED
+"click(findTestObject(""Page_Cogmento CRM/button_Create""))",Chrome 120.0.0.0,,,24-01-2024 11:50:08,24-01-2024 11:50:09,1.043s,PASSED
+"setText(findTestObject(""Object Repository/Page_Cogmento CRM/input_name""), name)",Chrome 120.0.0.0,,,24-01-2024 11:50:09,24-01-2024 11:50:10,1.518s,PASSED
+"click(findTestObject(""Page_Cogmento CRM/button_Save""))",Chrome 120.0.0.0,,,24-01-2024 11:50:10,24-01-2024 11:50:11,0.369s,PASSED
+"click(findTestObject(""Page_Cogmento CRM/span_Companies""))",Chrome 120.0.0.0,,,24-01-2024 11:50:11,24-01-2024 11:50:12,1.691s,PASSED
+"verifyElementText(findTestObject(""Page_Cogmento CRM/record_verify""), name)",Chrome 120.0.0.0,,,24-01-2024 11:50:12,24-01-2024 11:50:13,0.883s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,24-01-2024 11:50:13,24-01-2024 11:50:14,0.303s,PASSED
+,,,,,,,
+Test Cases/Company/create_company_without_mandatory_fields,Chrome 120.0.0.0,,,24-01-2024 11:50:14,24-01-2024 11:50:27,13.133s,PASSED
+"callTestCase(findTestCase(""Login/cogmento_login""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,24-01-2024 11:50:14,24-01-2024 11:50:20,6.117s,PASSED
+"click(findTestObject(""Page_Cogmento CRM/span_Companies""))",Chrome 120.0.0.0,,,24-01-2024 11:50:20,24-01-2024 11:50:24,4.106s,PASSED
+"click(findTestObject(""Page_Cogmento CRM/button_Create""))",Chrome 120.0.0.0,,,24-01-2024 11:50:24,24-01-2024 11:50:25,1.024s,PASSED
+"click(findTestObject(""Page_Cogmento CRM/button_Save""))",Chrome 120.0.0.0,,,24-01-2024 11:50:25,24-01-2024 11:50:26,1.060s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Cogmento CRM/span_The field CompanyName is required""), 0)",Chrome 120.0.0.0,,,24-01-2024 11:50:26,24-01-2024 11:50:26,0.435s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,24-01-2024 11:50:26,24-01-2024 11:50:27,0.323s,PASSED

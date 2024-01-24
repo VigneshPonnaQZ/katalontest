@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Company/company_exceeding_length","testCaseId":"Test Cases/Company/company_exceeding_length","iterationVariableName":""}
+{"testCaseName":"Test Cases/Company/company_with_max_length","testCaseId":"Test Cases/Company/company_with_max_length","iterationVariableName":""}
+{"testCaseName":"Test Cases/Company/create_company","testCaseId":"Test Cases/Company/create_company","iterationVariableName":""}
+{"testCaseName":"Test Cases/Company/create_company_without_mandatory_fields","testCaseId":"Test Cases/Company/create_company_without_mandatory_fields","iterationVariableName":""}
